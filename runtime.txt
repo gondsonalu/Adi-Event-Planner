@@ -1,1 +1,1 @@
-python-3.11.9
+SQLAlchemy>=2.0.30

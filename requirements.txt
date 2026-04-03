@@ -3,7 +3,10 @@ Werkzeug==2.3.8
 Flask-SQLAlchemy==3.0.5
 Flask-WTF==1.2.1
 Flask-Login==0.6.3
-SQLAlchemy==2.0.20
+
+# ✅ FIX (important)
+SQLAlchemy==2.0.30
+
 python-dotenv==1.0.0
 gunicorn==21.2.0
 email-validator==2.0.0.post2
@@ -11,7 +14,8 @@ WTForms==3.1.1
 dnspython==2.6.1
 bleach==6.1.0
 Flask-Limiter==3.5.0
-dnspython>=2.4.0
+
+# extra
 pandas
 openpyxl
 reportlab
